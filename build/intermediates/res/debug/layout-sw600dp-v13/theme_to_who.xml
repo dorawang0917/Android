@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <Spinner
+            android:layout_width="319dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/theme_to_who"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical">
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Region 1"
+            android:id="@+id/textView16"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/area_1"
+            android:layout_toStartOf="@+id/area_1"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_horizontal" />
+
+        <Spinner
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/area_1"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/textView17"
+            android:layout_toStartOf="@+id/textView17"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Region 2"
+            android:id="@+id/textView17"
+            android:gravity="center_vertical"
+            android:layout_alignTop="@+id/textView16"
+            android:layout_toLeftOf="@+id/area_2"
+            android:layout_toStartOf="@+id/area_2"
+            android:layout_gravity="center_horizontal" />
+
+        <Spinner
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/area_2"
+            android:layout_alignTop="@+id/area_1"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal" />
+
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/D:/Light_Control/res/layout-sw600dp/theme_to_who.xml -->

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants">
+
+    <ExpandableListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mListView"
+        android:dividerHeight="1dp"
+        android:padding="16dp"
+        android:divider="#00000000"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="200dp"
+        android:layout_marginRight="200dp"
+        android:drawSelectorOnTop="false"
+        android:childDivider="#00ffffff"
+        android:minHeight="@android:dimen/app_icon_size"
+        android:layout_alignBottom="@+id/reset_group"
+         />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   New Group   "
+        android:id="@+id/new_group"
+        android:visibility="visible"
+        android:background="@drawable/button"
+        android:textColor="#ff00c3e0"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:descendantFocusability="blocksDescendants"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Reset Group "
+        android:id="@+id/reset_group"
+        android:visibility="invisible"
+        android:background="@drawable/button"
+        android:textColor="#ff00c3e0"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/new_group"
+        android:layout_toStartOf="@+id/new_group"
+        android:descendantFocusability="blocksDescendants"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="      Apply     "
+        android:id="@+id/get_check"
+        android:background="@drawable/button"
+        android:textColor="#ff00c3e0"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:descendantFocusability="blocksDescendants"/>
+
+</RelativeLayout><!-- From: file:/D:/Light_Control/res/layout/expandable_list_fragment.xml -->

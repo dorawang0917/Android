@@ -1,0 +1,233 @@
+<!--
+  Copyright 2012 The Android Open Source Project
+  
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+  
+      http://www.apache.org/licenses/LICENSE-2.0
+  
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:baselineAligned="false"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_marginTop="47dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/light_on"
+            style="buttonStyle"
+            android:layout_width="wrap_content"
+            android:background="@drawable/button"
+            android:textColor="@drawable/button_text"
+            android:layout_height="wrap_content"
+            android:text="Light ON"
+            android:textSize="28dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:visibility="invisible"
+            android:id="@+id/textView7" />
+
+        <Button
+            android:id="@+id/light_off"
+            style="buttonStyle"
+            android:layout_width="wrap_content"
+            android:background="@drawable/button"
+            android:textColor="@drawable/button_text"
+            android:layout_height="wrap_content"
+            android:text="Light OFF"
+            android:textSize="28dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_centerHorizontal="true">
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:id="@+id/switch1"
+            android:visibility="invisible"
+            android:checked="false"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/linearLayout2"
+        android:gravity="center"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="165dp"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Light :"
+            android:id="@+id/textView4"
+            android:gravity="center|center_vertical"
+            android:textSize="36dp"
+            android:textColor="#ff01c2df" />
+
+        <Spinner
+            android:layout_width="80dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/mySpinner"
+            android:textSize="32dp"
+            android:layout_gravity="left"
+            android:layout_weight="0.07" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seekBar1"
+        android:visibility="visible"
+        android:layout_centerHorizontal="true"
+        android:text="@string/text_bar"
+        android:textSize="24dp"
+        android:textIsSelectable="false" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/linearLayout3"
+        android:orientation="horizontal"
+        android:layout_alignBottom="@+id/sendfreetyping"
+        android:layout_toLeftOf="@+id/sendfreetyping"
+        android:layout_toStartOf="@+id/sendfreetyping"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:weightSum="1">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/freetyping"
+            android:singleLine="true"
+
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/linearLayout5"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/seekBar1"
+            android:layout_alignEnd="@+id/seekBar1"
+            android:visibility="visible"
+            android:layout_weight="0.96" />
+
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/seekBar1"
+        android:layout_width="299dp"
+        android:layout_height="wrap_content"
+        android:indeterminate="false"
+        android:layout_below="@+id/linearLayout4"
+        android:layout_toLeftOf="@+id/sendfreetyping"
+        android:layout_toRightOf="@+id/linearLayout5"
+        android:layout_toEndOf="@+id/linearLayout5"
+        android:visibility="visible"
+        android:background="@drawable/lighting_bar_bg" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:baselineAligned="false"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:text="@string/Addr_list" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/query_log"
+            android:visibility="invisible" />
+
+        <ListView
+            android:id="@+id/Query_log"
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:visibility="visible"
+            android:transcriptMode="alwaysScroll">
+        </ListView>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="send"
+        android:visibility="visible"
+        android:id="@+id/sendfreetyping"
+        android:layout_below="@+id/linearLayout3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Theme Configure"
+        android:id="@+id/button2"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button"
+        android:textColor="@drawable/button_text"
+        android:textSize="28dp"
+        android:layout_below="@+id/linearLayout5"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout><!-- From: file:/F:/Light_Control_computex/res/layout-sw600dp/light_control_panel.xml -->

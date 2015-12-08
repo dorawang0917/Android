@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/Light_Control/res/values/colors_fsp_light_control.xml -->
+    <eat-comment/>
+    <color name="fsp_light_control_color">#33b5e5</color>
+    <declare-styleable name="ToggleButton"><attr format="dimension" name="borderWidth"/><attr format="reference|color" name="offBorderColor"/><attr format="reference|color" name="offColor"/><attr format="reference|color" name="onColor"/><attr format="reference|color" name="spotColor"/></declare-styleable>
+    <!-- From: file:/D:/Light_Control/res/values/dimens_fsp_light_control.xml -->
+    <eat-comment/>
+    <dimen name="tab_host_default_height">48dp</dimen>
+    <!-- From: file:/D:/Light_Control/res/values/colors_button.xml -->
+    <eat-comment/>
+    <drawable name="blue">#ff00c3e0</drawable>
+    <drawable name="gray">#ccc</drawable>
+    <drawable name="green">#0f0</drawable>
+    <drawable name="red">#f00</drawable>
+    <drawable name="white">#ffffff</drawable>
+    <!-- From: file:/D:/Light_Control/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="Add">Add</string>
+    <string name="Addr_list">Addr_list</string>
+    <string name="Addr_list_left">Addr_list_left</string>
+    <string name="Addr_list_right">"Addr_list_right"</string>
+    <string name="Addr_list_test">Addr_list_test</string>
+    <string name="ChildActivity">title_activity_child</string>
+    <string name="Delete">Delete</string>
+    <string name="Floor">Floor</string>
+    <string name="Office">Office</string>
+    <string name="about">About</string>
+    <string name="about_msg">Light control\n作者 Eric\ndorawang0917@gmail.com</string>
+    <string name="about_title">Light control</string>
+    <string name="action_edit">"action_edit"</string>
+    <string name="action_new">"action_new"</string>
+    <string name="action_settings">"action_settings"</string>
+    <string name="action_theme">"action_theme"</string>
+    <string name="app_name">FSP Light Control</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Bluetooth Chat.</string>
+    <string name="button_scan">Scan for devices</string>
+    <string name="cancel">Cancel</string>
+    <string name="connect">Connect a device</string>
+    <string name="demo_collection">Demo Collection</string>
+    <string name="demo_external_activity">Demo External Activity</string>
+    <string name="dummy_section_text">Section %1d is just a dummy section.</string>
+    <string name="group_title">新增Group</string>
+    <string name="homepage_label">上網</string>
+    <string name="homepage_uri">http://www.google.com/</string>
+    <string name="light_brighter">light_brighter</string>
+    <string name="light_brightest">light_brightest</string>
+    <string name="light_darker">light_darker</string>
+    <string name="light_darkest">light_darkest</string>
+    <string name="light_off">light_off</string>
+    <string name="light_on">light_on</string>
+    <string name="light_query">light_query</string>
+    <string name="none_found">No devices found</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="ok_label">Scan to Connect</string>
+    <string name="ok_label_1">OK</string>
+    <string name="query_log">query_log</string>
+    <string name="scanning">scanning for devices…</string>
+    <string name="scene1">"scene1"</string>
+    <string name="scene2">"scene2"</string>
+    <string name="scene3">"scene3"</string>
+    <string name="scene4">"scene4"</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="str_dialog_body">The Command is Processing</string>
+    <string name="str_dialog_title">Processing</string>
+    <string name="text_bar">text_bar</string>
+    <string name="title_connected_to">connected: </string>
+    <string name="title_connecting">connecting…</string>
+    <string name="title_not_connected">not connected</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <!-- From: file:/D:/Light_Control/res/values/styles_lightcontrol.xml -->
+    <eat-comment/>
+    <style name="ActionBar.Solid.Lightcontrol" parent="@android:style/Widget.Holo.ActionBar.Solid">
+        <item name="android:background">@drawable/ab_background_textured_lightcontrol</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_lightcontrol</item>
+        <item name="android:backgroundSplit">@drawable/ab_background_textured_lightcontrol</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Lightcontrol</item>
+    </style>
+    <style name="ActionBar.Transparent.Lightcontrol" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">@drawable/ab_transparent_lightcontrol</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Lightcontrol</item>
+    </style>
+    <style name="ActionBarTabStyle.Lightcontrol" parent="@android:style/Widget.Holo.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_lightcontrol</item>
+    </style>
+    <style name="ActionButton.CloseMode.Lightcontrol" parent="@android:style/Widget.Holo.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_lightcontrol</item>
+    </style>
+    <!-- From: file:/D:/Light_Control/res/values/styles_fsp_light_control.xml -->
+    <eat-comment/>
+    <style name="AutoCompleteTextViewFSP_Light_Control" parent="android:Widget.Holo.Light.AutoCompleteTextView">
+      <item name="android:dropDownSelector">@drawable/fsp_light_control_list_selector_holo_light</item>
+	    <item name="android:background">@drawable/fsp_light_control_edit_text_holo_light</item>
+  </style>
+    <style name="ButtonFSP_Light_Control" parent="android:Widget.Holo.Light.Button">
+	  <item name="android:background">@drawable/fsp_light_control_btn_default_holo_light</item>
+  </style>
+    <!-- From: file:/D:/Light_Control/res/values/styles_lightcontrol.xml -->
+    <eat-comment/>
+    <style name="DropDownListView.Lightcontrol" parent="@android:style/Widget.Holo.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_lightcontrol</item>
+    </style>
+    <style name="DropDownNav.Lightcontrol" parent="@android:style/Widget.Holo.Spinner">
+        <item name="android:background">@drawable/spinner_background_ab_lightcontrol</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_lightcontrol</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_lightcontrol</item>
+    </style>
+    <!-- From: file:/D:/Light_Control/res/values/themes_fsp_light_control.xml -->
+    <eat-comment/>
+    <style name="FSP_Light_Control" parent="@style/_FSP_Light_Control"/>
+    <!-- From: file:/D:/Light_Control/res/values/styles_fsp_light_control.xml -->
+    <eat-comment/>
+    <style name="ImageButtonFSP_Light_Control" parent="android:Widget.Holo.Light.ImageButton">
+	  <item name="android:background">@drawable/fsp_light_control_btn_default_holo_light</item>
+  </style>
+    <!-- From: file:/D:/Light_Control/res/values/styles_lightcontrol.xml -->
+    <eat-comment/>
+    <style name="PopupMenu.Lightcontrol" parent="@android:style/Widget.Holo.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_lightcontrol</item>	
+    </style>
+    <style name="ProgressBar.Lightcontrol" parent="@android:style/Widget.Holo.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_lightcontrol</item>
+    </style>
+    <!-- From: file:/D:/Light_Control/res/values/styles_fsp_light_control.xml -->
+    <eat-comment/>
+    <style name="ProgressBarFSP_Light_Control" parent="android:Widget.Holo.Light.ProgressBar.Horizontal">
+      <item name="android:progressDrawable">@drawable/fsp_light_control_progress_horizontal_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/fsp_light_control_progress_indeterminate_horizontal_holo_light</item>
+  </style>
+    <style name="RatingBarBigFSP_Light_Control" parent="android:Widget.Holo.Light.RatingBar.Indicator">
+      <item name="android:progressDrawable">@drawable/fsp_light_control_ratingbar_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/fsp_light_control_ratingbar_holo_light</item>
+  </style>
+    <style name="RatingBarFSP_Light_Control" parent="android:Widget.Holo.Light.RatingBar">
+      <item name="android:progressDrawable">@drawable/fsp_light_control_ratingbar_full_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/fsp_light_control_ratingbar_full_holo_light</item>
+  </style>
+    <style name="RatingBarSmallFSP_Light_Control" parent="android:Widget.Holo.Light.RatingBar.Small">
+      <item name="android:progressDrawable">@drawable/fsp_light_control_ratingbar_small_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/fsp_light_control_ratingbar_small_holo_light</item>
+  </style>
+    <style name="SeekBarFSP_Light_Control" parent="android:Widget.Holo.Light.SeekBar">
+      <item name="android:progressDrawable">@drawable/fsp_light_control_scrubber_progress_horizontal_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/fsp_light_control_scrubber_progress_horizontal_holo_light</item>
+      <item name="android:thumb">@drawable/fsp_light_control_scrubber_control_selector_holo_light</item>
+  </style>
+    <style name="SpinnerFSP_Light_Control" parent="android:Widget.Holo.Light.Spinner">
+      <item name="android:background">@drawable/fsp_light_control_spinner_background_holo_light</item>
+      <item name="android:dropDownSelector">@drawable/fsp_light_control_list_selector_holo_light</item>
+  </style>
+    <style name="TabFSP_Light_Control">
+      <item name="android:gravity">center_horizontal</item>
+      <item name="android:paddingLeft">16dip</item>
+      <item name="android:paddingRight">16dip</item>
+      <item name="android:background">@drawable/fsp_light_control_tab_indicator_holo</item>
+      <item name="android:layout_width">0dip</item>
+      <item name="android:layout_weight">1</item>
+      <item name="android:minWidth">80dip</item>
+  </style>
+    <style name="TabTextFSP_Light_Control">
+	  <item name="android:textColor">#000000</item>
+      <item name="android:textSize">12sp</item>
+      <item name="android:textStyle">bold</item>
+      <!-- v14 <item name="android:textAllCaps">true</item> -->
+      <item name="android:ellipsize">marquee</item>
+      <item name="android:maxLines">2</item>
+      <item name="android:maxWidth">180dip</item>
+  </style>
+    <!-- From: file:/D:/Light_Control/res/values/styles_lightcontrol.xml -->
+    <eat-comment/>
+    <style name="Theme.Lightcontrol" parent="@android:style/Theme.Holo">
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_lightcontrol</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu.Lightcontrol</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Lightcontrol</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Lightcontrol</item>
+        <item name="android:actionDropDownStyle">@style/DropDownNav.Lightcontrol</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Transparent.Lightcontrol</item>
+        <item name="android:actionModeBackground">@drawable/cab_background_top_lightcontrol</item>
+        <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_lightcontrol</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Lightcontrol</item>
+        
+        
+    </style>
+    <style name="Theme.Lightcontrol.Widget" parent="@android:style/Theme.Holo">
+        <item name="android:popupMenuStyle">@style/PopupMenu.Lightcontrol</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Lightcontrol</item>
+    </style>
+    <!-- From: file:/D:/Light_Control/res/values/styles_fsp_light_control.xml -->
+    <eat-comment/>
+    <style name="ToggleFSP_Light_Control" parent="android:Widget.Holo.Light.Button.Toggle">
+      <item name="android:background">@drawable/fsp_light_control_btn_toggle_holo_light</item>
+  </style>
+    <!-- From: file:/D:/Light_Control/res/values/themes_fsp_light_control.xml -->
+    <eat-comment/>
+    <style name="_FSP_Light_Control" parent="android:Theme.Holo.Light">
+
+    <item name="android:editTextBackground">@drawable/fsp_light_control_edit_text_holo_light</item>
+
+
+    <item name="android:textColorHighlight">#9933b5e5</item>
+    <item name="android:textSelectHandleLeft">@drawable/fsp_light_control_text_select_handle_left</item>
+    <item name="android:textSelectHandleRight">@drawable/fsp_light_control_text_select_handle_right</item>
+    <item name="android:textSelectHandle">@drawable/fsp_light_control_text_select_handle_middle</item>
+
+    <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewFSP_Light_Control</item>
+
+    <item name="android:listChoiceIndicatorMultiple">@drawable/fsp_light_control_btn_check_holo_light</item>
+
+    <item name="android:listChoiceIndicatorSingle">@drawable/fsp_light_control_btn_radio_holo_light</item>
+
+    <item name="android:buttonStyle">@style/ButtonFSP_Light_Control</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtonFSP_Light_Control</item>
+
+    <item name="android:dropDownSpinnerStyle">@style/SpinnerFSP_Light_Control</item>
+
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarFSP_Light_Control</item>
+
+    <item name="android:seekBarStyle">@style/SeekBarFSP_Light_Control</item>
+
+    <item name="android:ratingBarStyle">@style/RatingBarFSP_Light_Control</item>
+
+    <item name="android:ratingBarStyleIndicator">@style/RatingBarBigFSP_Light_Control</item>
+
+    <item name="android:ratingBarStyleSmall">@style/RatingBarSmallFSP_Light_Control</item>
+
+    <item name="android:buttonStyleToggle">@style/ToggleFSP_Light_Control</item>
+
+    <item name="android:listChoiceBackgroundIndicator">@drawable/fsp_light_control_list_selector_holo_light</item>
+
+    <item name="android:activatedBackgroundIndicator">@drawable/fsp_light_control_activated_background_holo_light</item>
+
+    <item name="android:fastScrollThumbDrawable">@drawable/fsp_light_control_fastscroll_thumb_holo</item>
+
+  </style>
+</resources>
