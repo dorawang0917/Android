@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="FSP_Light_Control" parent="@style/_FSP_Light_Control"/>
+
+  <style name="_FSP_Light_Control" parent="android:Theme.Holo.Light">
+
+    <item name="android:editTextBackground">@drawable/fsp_light_control_edit_text_holo_light</item>
+
+
+    <item name="android:textColorHighlight">#9933b5e5</item>
+    <item name="android:textSelectHandleLeft">@drawable/fsp_light_control_text_select_handle_left</item>
+    <item name="android:textSelectHandleRight">@drawable/fsp_light_control_text_select_handle_right</item>
+    <item name="android:textSelectHandle">@drawable/fsp_light_control_text_select_handle_middle</item>
+
+    <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewFSP_Light_Control</item>
+
+    <item name="android:listChoiceIndicatorMultiple">@drawable/fsp_light_control_btn_check_holo_light</item>
+
+    <item name="android:listChoiceIndicatorSingle">@drawable/fsp_light_control_btn_radio_holo_light</item>
+
+    <item name="android:buttonStyle">@style/ButtonFSP_Light_Control</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtonFSP_Light_Control</item>
+
+    <item name="android:dropDownSpinnerStyle">@style/SpinnerFSP_Light_Control</item>
+
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarFSP_Light_Control</item>
+
+    <item name="android:seekBarStyle">@style/SeekBarFSP_Light_Control</item>
+
+    <item name="android:ratingBarStyle">@style/RatingBarFSP_Light_Control</item>
+
+    <item name="android:ratingBarStyleIndicator">@style/RatingBarBigFSP_Light_Control</item>
+
+    <item name="android:ratingBarStyleSmall">@style/RatingBarSmallFSP_Light_Control</item>
+
+    <item name="android:buttonStyleToggle">@style/ToggleFSP_Light_Control</item>
+
+    <item name="android:listChoiceBackgroundIndicator">@drawable/fsp_light_control_list_selector_holo_light</item>
+
+    <item name="android:activatedBackgroundIndicator">@drawable/fsp_light_control_activated_background_holo_light</item>
+
+    <item name="android:fastScrollThumbDrawable">@drawable/fsp_light_control_fastscroll_thumb_holo</item>
+
+  </style>
+
+
+</resources>

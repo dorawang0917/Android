@@ -1,0 +1,87 @@
+<!--
+  Copyright 2012 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<resources>
+    <string name="app_name">FSP Light Control</string>
+
+    <string name="dummy_section_text">Section %1d is just a dummy section.</string>
+
+    <string name="demo_external_activity">Demo External Activity</string>
+    <string name="demo_collection">Demo Collection</string>
+    
+    <string name="str_dialog_title">Processing</string>
+    <string name="str_dialog_body">The Command is Processing</string>
+    
+    
+    <string name="light_off">light_off</string>
+    <string name="light_on">light_on</string>
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Bluetooth Chat.</string>
+    <string name="title_connecting">connecting&#8230;</string>
+    <string name="title_connected_to">connected: </string>
+    <string name="title_not_connected">not connected</string>
+	<string name="light_brighter">light_brighter</string>
+    <string name="light_darker">light_darker</string>
+    <string name="text_bar">text_bar</string>
+    <string name="light_brightest">light_brightest</string>
+    <string name="light_darkest">light_darkest</string>
+    <string name="Floor">Floor</string>
+    <string name="Office">Office</string>
+    <string name="Add">Add</string>
+    <string name="Delete">Delete</string>    
+    <string name="light_query">light_query</string>
+    <string name="query_log">query_log</string>   
+    <string name="Addr_list">Addr_list</string> 
+    <string name="Addr_list_test">Addr_list_test</string> 
+    <string name="Addr_list_left">Addr_list_left</string> 
+    <string name="Addr_list_right">"Addr_list_right"</string> 
+     
+    <!--  DeviceListActivity -->
+    <string name="scanning">scanning for devices&#8230;</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+    <string name="scene1">"scene1"</string>
+    <string name="scene2">"scene2"</string>
+    <string name="scene3">"scene3"</string>
+    <string name="scene4">"scene4"</string>
+    <string name="action_settings">"action_settings"</string>
+    <string name="action_new">"action_new"</string>
+    <string name="action_edit">"action_edit"</string>
+    <string name="action_theme">"action_theme"</string>
+	<!--  QueryActivity -->
+	
+	
+    <!-- Options Menu -->
+    <string name="connect">Connect a device</string>
+    <string name="about">About</string>
+    
+    <string name="ChildActivity">title_activity_child</string>   
+    <string name="about_title">Light control</string>
+    <string name="about_msg">Light control\n作者 Eric\ndorawang0917@gmail.com</string>
+    <string name="ok_label">Scan to Connect</string>
+    <string name="ok_label_1">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="homepage_label">上網</string>
+    <string name="homepage_uri">http://www.google.com/</string>
+    <string name="group_title">新增Group</string>
+
+
+
+</resources>
